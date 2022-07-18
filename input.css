@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.header {
+    background-image: url('images/bg-header-desktop.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.logo-footer-img:hover {
+    filter: invert(63%) sepia(31%) saturate(916%) hue-rotate(122deg) brightness(90%) contrast(93%);
+}
